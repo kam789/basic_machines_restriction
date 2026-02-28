@@ -1,5 +1,4 @@
-minetest.register_privilege("bmachines",
-    { description = "Able to use all basic_machines.", give_to_singleplayer = false })
+minetest.register_privilege("bmachines", {description = "Able to use all basic_machines.", give_to_singleplayer = false})
 
 -- listed nodes require bmachines priv for placement
 -- to add additional nodes, insert new entries into machine_list
